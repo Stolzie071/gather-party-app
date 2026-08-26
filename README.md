@@ -73,7 +73,7 @@ Gather превращает один телефон в помощника для
 | Область | Технологии |
 | --- | --- |
 | Приложение | React Native 0.81, React 19, Expo SDK 54, TypeScript 5.9 |
-| Навигация | React Navigation 7, native stack, кастомные переходы экранов |
+| Навигация | React Navigation, типизированная навигация и кастомные переходы между экранами. |
 | Анимации и жесты | Reanimated 4, Gesture Handler |
 | Хранение | AsyncStorage и локальные файлы приложения |
 | Возможности устройства | Image Picker, Image Manipulator, Media Library, Haptics, Keep Awake, Localization |
