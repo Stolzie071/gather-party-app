@@ -25,6 +25,7 @@ The project was designed and built independently from initial Figma concepts thr
 - Complete Spy game flow for 3–12 players and one or multiple spies.
 - Built-in and user-created word packs; several packs can be combined into one game.
 - 62 illustrated locations across Nature, Entertainment, and Cities.
+- The game is not limited to locations: text-only packs include Dota characters, Marvel superheroes, animals, professions, and school items.
 - Persistent players with preset avatars or cropped personal photos.
 - Configurable timer, spy count, and whether spies know each other.
 - Role distribution, teammate hints, leave protection, winner selection, and haptic feedback.
