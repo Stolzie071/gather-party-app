@@ -1,0 +1,22 @@
+# Release binaries belong in GitHub Releases, not in the repository.
+*.apk
+*.aab
+
+# Signing material must never be published.
+*.keystore
+*.jks
+*.p12
+*.pem
+.signing/
+
+# Credentials and local configuration.
+credentials.json
+.env
+.env.*
+
+# Local and operating-system files.
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+
