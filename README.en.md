@@ -3,7 +3,7 @@
 
   # Gather
 
-  **An offline party-game companion focused on polished UX, responsive layouts, and local-first play.**
+  **An offline party-game app built with React Native and Expo.**
 
   [![Version](https://img.shields.io/badge/version-1.0.0-9B73E6?style=flat-square)](https://github.com/Stolzie071/gather-party-app/releases/latest)
   [![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/Stolzie071/gather-party-app/releases/latest)
@@ -16,13 +16,13 @@
 
 ## About
 
-Gather turns one phone into a companion for in-person party games. Version 1.0 ships a complete **Spy** experience: configure a party, privately reveal roles, run the timer, choose winners, and keep local player statistics — without accounts, a backend, or an internet connection.
+Gather is my pet project where one phone is used to run in-person party games. Version 1.0 includes **Spy**: game setup, private role distribution, a timer, winner selection, and local player statistics. It does not require an account, a backend, or a permanent internet connection.
 
-The project was designed and built independently from initial Figma concepts through responsive React Native implementation, native Android release preparation, performance tuning, and device testing.
+For this project, I designed the interface in Figma, implemented it with React Native, and configured local data storage and the Android build. The work focused on reusable components, animation, support for different smartphone sizes, and testing on physical devices.
 
 ## Highlights
 
-- Complete Spy game flow for 3–12 players and one or multiple spies.
+- Spy game flow for 3–12 players and one or multiple spies.
 - Built-in and user-created word packs; several packs can be combined into one game.
 - 62 illustrated locations across Nature, Entertainment, and Cities.
 - The game is not limited to locations: text-only packs include Dota characters, Marvel superheroes, animals, professions, and school items.
@@ -30,7 +30,7 @@ The project was designed and built independently from initial Figma concepts thr
 - Configurable timer, spy count, and whether spies know each other.
 - Role distribution, teammate hints, leave protection, winner selection, and haptic feedback.
 - Local game history, player profiles, search, filters, sorting, and performance statistics.
-- Responsive layouts tested on small and large Android screens.
+- Layouts tested on compact and large Android smartphones.
 - Russian and English interface localization.
 - Alias and Mafia are presented in the catalog as future games.
 
@@ -60,10 +60,16 @@ The project was designed and built independently from initial Figma concepts thr
 5. Play with or without a timer, then select one or more winners.
 6. Review the saved match and updated player statistics.
 
+## Supported devices
+
+The application is intended for **Android smartphones** running Android 7.0 or newer. The interface has been tested on phones with different screen sizes.
+
+A dedicated tablet layout has not been implemented, and the application has not been tested on tablets. Installation may still be possible, but correct layout on large tablet screens is not guaranteed.
+
 ## Engineering highlights
 
-- **Local-first data model:** settings, players, custom packs, active game state, history, and statistics are stored on the device.
-- **Reusable game architecture:** shared navigation, cards, dialogs, controls, transitions, player management, and storage are separated from Spy-specific rules and content.
+- **Local storage:** settings, players, custom packs, active game state, history, and statistics are stored on the device.
+- **Project structure:** shared components, navigation, dialogs, and storage are separated from game-specific screens and logic.
 - **Release optimization:** the ARM64 APK was reduced from approximately **190.84 MB to 33.55 MB**; the universal APK is **82.12 MB**.
 - **Asset optimization:** 62 location images were reduced from **113.44 MB to 5.32 MB** while preserving their in-app quality.
 - **Quality checks:** the project currently passes **35 automated tests across 7 suites**, alongside manual testing on physical devices and multiple screen sizes.
@@ -99,7 +105,7 @@ Gather does not require an account and does not send gameplay or player data to 
 
 ## Project status
 
-Version 1.0 is a portfolio-ready Android release centered on the Spy game. Planned work includes game rules, sound and music, dark theme, expanded content, and fully playable Alias and Mafia modes.
+Version 1.0 is the first public version of this pet project and is centered on the Spy game. Planned work includes game rules, sound and music, dark theme, expanded content, and fully playable Alias and Mafia modes.
 
 ## Source availability
 
